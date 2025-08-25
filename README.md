@@ -1,10 +1,5 @@
-.
-
-🧹 Data Cleaning Workflow (Interactive HTML)
+.🧹 Data Cleaning Workflow 
 Welcome! This repository showcases a visually engaging, animated HTML walkthrough of a reproducible data cleaning pipeline. Designed for clarity and client communication, this workflow reflects best practices in preparing raw data for analysis or machine learning.
-
-🔗 Live Preview
-👉 View the Interactive Workflow
 
 📌 Workflow Steps
 Each step is animated and color-coded to guide viewers through the cleaning process:
@@ -57,7 +52,7 @@ This animated HTML visual outlines a reproducible data cleaning pipeline.
 
 📎 [View the Interactive Workflow](visuals/html-workflows/data-cleaning-workflow.html)
 
-![Workflow Preview](visuals/workflow-preview.png)
+![Workflow Preview](images/data_cleaning.ss.png)
 
 
 🙋‍♀️ About Me
