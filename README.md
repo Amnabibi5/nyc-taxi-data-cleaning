@@ -55,7 +55,7 @@ Tailwind-inspired styling (custom gradients and shadows)
 
 This animated HTML visual outlines a reproducible data cleaning pipeline.
 
-📎 [View the Interactive Workflow](visuals/data-cleaning-workflow.html)
+📎 [View the Interactive Workflow](visuals/html-workflows/data-cleaning-workflow.html)
 
 ![Workflow Preview](visuals/workflow-preview.png)
 
