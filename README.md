@@ -1,56 +1,67 @@
-.🧹 Data Cleaning Workflow 
-Welcome! This repository showcases a visually engaging, animated HTML walkthrough of a reproducible data cleaning pipeline. Designed for clarity and client communication, this workflow reflects best practices in preparing raw data for analysis or machine learning.
+# 🧹 NYC Taxi Data Cleaning for Machine Learning
 
-📌 Workflow Steps
-Each step is animated and color-coded to guide viewers through the cleaning process:
+This repository demonstrates a complete, reproducible workflow for cleaning real-world taxi trip data using Python. The goal is to transform raw, messy data into a machine learning–ready format by applying best practices in preprocessing, outlier handling, and feature engineering.
 
-🔍 Drop Duplicates
+---
 
-🔧 Handle Missing Values
+## 📌 Project Overview
 
-⏰ Convert Timestamps
+The dataset used is the **2017 NYC Yellow Taxi Trip Records**, which contains millions of rows of trip-level data including timestamps, passenger counts, distances, and fare breakdowns.
 
-📊 Remove Outliers
+This project focuses on:
 
-🏷️ Encode Categories
+- Identifying and removing duplicates
+- Handling missing and invalid values
+- Converting and validating timestamp formats
+- Removing outliers in fare, distance, and duration
+- Encoding categorical variables
+- Saving a clean, structured CSV for downstream ML tasks
 
-💾 Save Cleaned CSV
+---
 
-This visual is ideal for:
+## 🧠 Why Data Cleaning Matters
 
-Explaining your process to clients
+Before any model can be trained, the data must be trustworthy. This repo showcases how to:
 
-Enhancing portfolio presentations
+- Build reproducible cleaning pipelines
+- Document each transformation step
+- Prepare datasets for regression, classification, or clustering
+- Communicate your process clearly to clients or collaborators
 
-Embedding in dashboards or documentation
+---
 
-📁 Repository Structure
-plaintext
+## 🧪 Technologies Used
+
+- Python 3.10+
+- pandas
+- numpy
+- matplotlib & seaborn (for optional visual insights)
+- Google Colab (for notebook-based exploration)
+
+---
+
+## 📁 Repository Structure
+
+```plaintext
+nyc-taxi-data-cleaning/
+│
+├── data/
+│   ├── raw/                  # Original dataset (optional sample)
+│   └── cleaned/              # Final cleaned CSV file
+│
+├── notebooks/
+│   └── nyc_taxi_cleaning.ipynb   # Annotated Colab notebook
+│
+├── scripts/
+│   └── clean_data.py         # Modular Python script version
+│
 ├── visuals/
-│   └── data-cleaning-workflow.html   # Animated HTML workflow
-│   └── workflow-preview.png          # Optional screenshot for README
-├── README.md                         # This file
-💡 Why This Matters
-As a freelance data scientist, clear communication is just as important as clean code. This workflow:
+│   ├── workflow-preview.png      # Screenshot of HTML workflow
+│   └── data-cleaning-workflow.html  # Animated HTML flowchart
+│
+├── requirements.txt
 
-Demonstrates your reproducibility mindset
 
-Helps clients understand your approach
-
-Adds visual polish to your portfolio
-
-🛠️ Technologies Used
-HTML5 + CSS3 (animations, gradients, responsiveness)
-
-JavaScript (interactivity)
-
-Tailwind-inspired styling (custom gradients and shadows)
-
-## 🧹 Data Cleaning Workflow (Interactive HTML)
-
-This animated HTML visual outlines a reproducible data cleaning pipeline.
-
-📎 [View the Interactive Workflow](visuals/html-workflows/data-cleaning-workflow.html)
 
 ![Workflow Preview](images/data_cleaning.ss.png)
 
@@ -58,4 +69,4 @@ This animated HTML visual outlines a reproducible data cleaning pipeline.
 🙋‍♀️ About Me
 I'm Amna Bibi, a freelance data scientist and automation specialist focused on reproducible ML workflows, dashboard deployment, and Python-based automation. I help clients turn messy data into actionable insights—ethically and efficiently.
 
-📫 Connect on LinkedIn 🌐 Visit My Portfolio
+
